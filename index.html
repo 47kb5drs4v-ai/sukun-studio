@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sükûn Studio — Özge Alsancak İç Mimarlık, İstanbul</title>
+  <meta name="description" content="Sükûn Studio, iç mimar Özge Alsancak'ın İstanbul'daki tasarım stüdyosu. Kafeler, brunch mekânları ve evler için az ama doğru malzemeyle tasarlanan iç mekânlar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container nav-bar">
+      <a href="#top" class="logo">Sükûn Studio</a>
+      <nav class="nav" id="nav" aria-label="Ana menü">
+        <a href="#about">Hakkımda</a>
+        <a href="#services">Hizmetler</a>
+        <a href="#portfolio">Projeler</a>
+        <a href="#journal">Blog</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <img class="hero-bg" src="assets/img/hero.jpg" alt="Gri kanepeler, yuvarlak sehpalar ve lambader bulunan sakin bir oturma alanı">
+      <div class="hero-shade"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title">
+          <span>Sükûn</span>
+          <span class="indent">İç Mimarlık</span>
+          <span class="indent">Stüdyosu</span>
+        </h1>
+        <div class="hero-side">
+          <p>İstanbul'da kafeler, brunch mekânları ve evler tasarlıyoruz; az ama doğru malzemeyle.</p>
+          <a href="#portfolio" class="btn btn-light">Projeler <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Hakkımda bölümüne in">↓</a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="eyebrow">Hakkımda</p>
+          <h2>Kalabalık bir şehirde <em>sükûnet</em> tasarlıyorum.</h2>
+          <p>Merhaba, ben Özge Alsancak. Sükûn Studio'yu, İstanbul'un hızına karşı insanı yavaşlatan mekânlar yaratmak için kurdum. Doğal taş, ceviz, keten ve sıcak, yumuşak ışık tasarımlarımın temelini oluşturur.</p>
+          <p>Bir kafenin sabah ışığından bir penthouse'un akşam atmosferine kadar her projeyi konseptten uygulamaya tek elden yürütüyor; İstanbul'un usta zanaatkârlarıyla birlikte, mekânın ruhuna uygun detaylar üretiyoruz.</p>
+          <p class="signature">Özge Alsancak<span>Kurucu &amp; İç Mimar</span></p>
+        </div>
+        <figure class="about-img reveal">
+          <img src="assets/img/about.jpg" alt="Arkadan aydınlatılmış ahşap çıtalı duvarın önünde koyu renkli kanepe" loading="lazy">
+          <figcaption>Işık, doku ve sessizlik</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Hizmetler</p>
+          <h2>Tek bir odadan<br>bütün bir mekâna.</h2>
+        </div>
+        <ol class="service-list">
+          <li class="service reveal">
+            <span class="num">01</span>
+            <h3>Konut Tasarımı</h3>
+            <p>Daire, villa ve penthouse'lar için konsept, çizim, malzeme ve şantiye; hepsi tek elden.</p>
+          </li>
+          <li class="service reveal">
+            <span class="num">02</span>
+            <h3>Kafe &amp; Restoran</h3>
+            <p>Misafirin nereye oturduğunu, neye baktığını ve neden geri döndüğünü tasarlıyoruz.</p>
+          </li>
+          <li class="service reveal">
+            <span class="num">03</span>
+            <h3>Stil &amp; Yenileme</h3>
+            <p>Tadilata girmeden; mobilya, ışık, tekstil ve sanatla yeniden kurgulanan mekânlar.</p>
+          </li>
+          <li class="service reveal">
+            <span class="num">04</span>
+            <h3>Özel Tasarım Mobilya</h3>
+            <p>Mekâna özel masa, dolap, döşeme ve detaylar; atölye ortaklarımızla birlikte tasarlanıp üretilir.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head split reveal">
+          <div>
+            <p class="eyebrow">Seçili işler</p>
+            <h2>Projeler</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Projeleri filtrele">
+            <button class="filter is-active" data-filter="all">Tümü</button>
+            <button class="filter" data-filter="residential">Konut</button>
+            <button class="filter" data-filter="commercial">Kafe &amp; Restoran</button>
+          </div>
+        </div>
+
+        <div class="grid">
+          <figure class="card wide tall reveal" data-cat="residential">
+            <img src="assets/img/penthouse.jpg" alt="Penthouse oturma alanında gri kanepeler ve heykelsi avize" loading="lazy">
+            <figcaption><span>Zorlu Center Penthouse</span><small>Konut · Beşiktaş</small></figcaption>
+          </figure>
+          <figure class="card tall reveal" data-cat="commercial">
+            <img src="assets/img/nisantasi-kafe.jpg" alt="Kavisli ahşap tezgâhlar ve sıcak ışıklı raflarla bir kafe iç mekânı" loading="lazy">
+            <figcaption><span>Nişantaşı Kafe</span><small>Kafe · Nişantaşı</small></figcaption>
+          </figure>
+          <figure class="card wide reveal" data-cat="commercial">
+            <img src="assets/img/brunch.jpg" alt="Thonet sandalyeler, sarkıt lambalar ve pastane vitrini olan aydınlık brunch mekânı" loading="lazy">
+            <figcaption><span>Lola</span><small>Brunch · İstanbul</small></figcaption>
+          </figure>
+          <figure class="card reveal" data-cat="residential">
+            <img src="assets/img/penthouse-detail.jpg" alt="Taş raflar ve yuvarlak koltukla doğal tonlarda oturma köşesi" loading="lazy">
+            <figcaption><span>Penthouse — Detay</span><small>Konut · Beşiktaş</small></figcaption>
+          </figure>
+          <figure class="card reveal" data-cat="residential">
+            <img src="assets/img/cihangir.jpg" alt="Çıtalı duvarlar ve aydınlatmalı raflarla koyu tonlarda TV odası" loading="lazy">
+            <figcaption><span>Boğaz Dairesi</span><small>Konut · Bebek</small></figcaption>
+          </figure>
+          <figure class="card wide reveal" data-cat="residential">
+            <img src="assets/img/moda.jpg" alt="Alçak modüler kanepe ve bahçe manzaralı minimal gri salon" loading="lazy">
+            <figcaption><span>Bahçeli Ev</span><small>Konut · Moda</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE BAND ============ -->
+    <section class="band">
+      <img src="assets/img/band.jpg" alt="" loading="lazy" aria-hidden="true">
+      <div class="band-shade"></div>
+      <blockquote class="container band-inner reveal">
+        <p>“İyi bir mekân kendini göstermez; içinde olduğunuzda nefesinizin yavaşladığını fark edersiniz.”</p>
+        <cite>Özge Alsancak</cite>
+      </blockquote>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Nasıl çalışıyoruz</p>
+          <h2>Dört adımda,<br>yeniden doğan mekânlar.</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span>I</span><h3>Tanışma</h3><p>Mekân ziyareti, bir çay ve net bir brif: nasıl yaşadığınız, bütçe ve takvim.</p></div>
+          <div class="step reveal"><span>II</span><h3>Konsept</h3><p>Yerleşim planları, mood board'lar ve elinizle dokunabileceğiniz bir malzeme paleti.</p></div>
+          <div class="step reveal"><span>III</span><h3>Tasarım &amp; Tedarik</h3><p>Teknik çizimler, 3D görseller ve güvendiğimiz üreticilerle siparişler.</p></div>
+          <div class="step reveal"><span>IV</span><h3>Teslim</h3><p>Son yastığa kadar şantiye takibi. Anahtarı size biz teslim ederiz.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ JOURNAL ============ -->
+    <section class="section journal" id="journal">
+      <div class="container">
+        <div class="section-head split reveal">
+          <div>
+            <p class="eyebrow">Blog</p>
+            <h2>Stüdyodan notlar</h2>
+          </div>
+        </div>
+        <div class="posts">
+          <article class="post reveal">
+            <div class="post-img"><img src="assets/img/nisantasi-kafe.jpg" alt="Sıcak ışıklı kafe tezgâhı" loading="lazy"></div>
+            <time datetime="2026-08-12">12 Ağustos 2026</time>
+            <h3>Misafiri geri getiren beş detay</h3>
+            <p>Işık sıcaklığından tezgâh yüksekliğine, bir kafede fark yaratan küçük kararlar.</p>
+          </article>
+          <article class="post reveal">
+            <div class="post-img"><img src="assets/img/band.jpg" alt="Taş raflar ve yuvarlak koltuk" loading="lazy"></div>
+            <time datetime="2026-07-03">3 Temmuz 2026</time>
+            <h3>İstanbul yazları için tasarlamak</h3>
+            <p>Keten, traverten ve çapraz havalandırma: sıcaklığı kaybetmeden serin kalan evler.</p>
+          </article>
+          <article class="post reveal">
+            <div class="post-img"><img src="assets/img/penthouse.jpg" alt="Penthouse oturma alanı" loading="lazy"></div>
+            <time datetime="2026-05-20">20 Mayıs 2026</time>
+            <h3>Penthouse'ta şehri içeri almak</h3>
+            <p>Zorlu Center projesinde manzarayı çerçeveleyen malzeme kararları.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">İletişim</p>
+          <h2>Mekânınızı<br>konuşalım.</h2>
+          <dl>
+            <dt>Stüdyo</dt>
+            <dd>Nişantaşı, Şişli<br>34365 İstanbul</dd>
+            <dt>Telefon</dt>
+            <dd><a href="tel:+902120000000">+90 212 000 00 00</a></dd>
+            <dt>E-posta</dt>
+            <dd><a href="mailto:merhaba@sukunstudio.com">merhaba@sukunstudio.com</a></dd>
+            <dt>Saatler</dt>
+            <dd>Pzt–Cum 10:00–19:00 · Cumartesi randevuyla</dd>
+          </dl>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Ad Soyad</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">E-posta</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="type">Proje türü</label>
+            <select id="type" name="type">
+              <option>Konut tasarımı</option>
+              <option>Kafe &amp; restoran</option>
+              <option>Stil &amp; yenileme</option>
+              <option>Özel tasarım mobilya</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Mekânınızdan bahsedin</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Gönder <span class="arrow" aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo">Sükûn Studio</a>
+      <p>Özge Alsancak İç Mimarlık · İstanbul</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <p class="copy">© <span id="year">2026</span> Sükûn Studio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
